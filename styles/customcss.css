@@ -1,0 +1,240 @@
+body {
+    font-family: 'Cormorant Garamond', serif !important;
+    box-sizing: border-box;
+}
+header {
+    background-color: #e0112b;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+.headernav a {
+    color: #ffffff; 
+    line-height: 50px; 
+}
+.headernav a:hover {
+    color: #1b1823;
+    border-bottom: 1px solid #1b1823;
+}
+.order {
+    background-color: #ffffff;
+    color: #e0112b;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: auto 10px;
+    border-radius: 50px;
+    
+}
+.order:hover {
+    background-color: #edd127;
+    color: #e0112b;
+    font-weight: 400;
+}
+
+.nav-icon {
+    float: left;
+}
+
+.intro {
+    padding: 60px;
+
+}
+.intro h1{
+    font-size: 4em;
+    font-weight: 700;
+
+}
+.intro-order {
+    background-color: #edd127;
+    color: #1b1823;
+    font-weight: 700;
+    font-size: 2em;
+    font-style: italic;
+    border-radius: 50px;
+
+}
+.intro-order:hover {
+    background-color: #e0112b;
+    color: #edd127;
+    font-weight: 500;
+}
+.introimg {
+    width: 600px;
+    height: 100%;
+    border-radius: 100%;
+}
+.red {
+    color: #e0112b;
+    font-weight: 600;
+    font-style: oblique;
+}
+.headings {
+    text-align: center;
+    padding: 40px 0;
+    font-weight: 600;
+    font-size: 3em;
+    color: #e0112b;
+}
+.aboutimg {
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+}
+.abouttxt {
+    padding: 50px;
+}
+.abouttxt h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+.footerbody{
+    background-color: #1b1823;
+    height: 100%;
+    padding: 50px 20px;
+    
+}
+.footertxt{
+    color: #777777;
+    font-size: 1.3em;
+}
+.footerhead {
+    color: #ffffff;
+    font-weight: 600;
+}
+.watermark {
+    border-top: 1px solid#777777;
+    padding-top: 50px;
+}
+.ade:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/* OTHER PAGES */
+
+.pre-heading {
+    text-align: center;
+    color: #777777;
+    font-size: 0.8em;
+    padding: 30px 0 0 0;
+}
+.pghead {
+    text-align: center;
+    font-size: 3em;
+    color: #1b1823;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+
+/* ABOUT PAGE */
+
+.aboutlanding {
+    padding: 100px 0;
+}
+.aboutlanding img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.ash {
+    color: #777777;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.moreabt {
+    padding: 100px 0;
+    background-color: #efefef;
+}
+
+
+
+/* MENU PAGE */
+
+.menu-wrapper {
+    background-color: #fbfbfb;
+    font-weight: 500;
+    font-size: 1.6em;
+    padding: 20px 40px;
+    box-shadow: 0 0 0.5em #777777;
+    margin: 50px auto;
+    border-radius: 20px;
+
+}
+
+.price{
+    color: #e0112b;
+}
+
+/* SERVICE PAGE */
+.cardbox {
+    font-size: 1.3em;
+    margin: 50px auto;
+}
+.s-card {
+    padding: 10px;
+    /* margin: 1px; */
+}
+.c-t {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/* CONTACT PAGE */
+.contact-card {
+    text-align: center;
+    background-color: #fbfbfb;
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    padding: 20px 0;
+    margin: 50px auto;
+    font-size: 1.3em;
+
+}
+.contact-card h3{
+    font-weight: 900;
+}
+.contact-form {
+    font-size: 1.4em;
+    font-weight: 900;
+}
+.contact-form input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.contact-btn {
+    background-color: #e0112b;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-style: italic;
+    border-radius: 50px;
+    margin: 5px 0;
+
+}
+
+
+
+
+
+/*Rules for sizing the icon*/
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; } 
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #e0112b; }
+.My-Color-Theme-2-hex { color: #edd127; }
+.My-Color-Theme-3-hex { color: #1b1823; }
+.My-Color-Theme-4-hex { color: #ffffff; }
+.My-Color-Theme-4-hex { color: #fbfbfb; }
+.My-Color-Theme-5-hex { color: #eeeeee; }
+.My-Color-Theme-5-hex { color: #777777; }
