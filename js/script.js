@@ -7,19 +7,20 @@
 // Form Validation 
 
 function validateForm() {
-    var a = document.forms["c-form"]["fname"].value;
-    if (a == "") {
+    var a = document.getElementById("inputName").value;
+    if (a == "" || a == null) {
       alert("Kindly fill out your name");
       return false;
     }
-    var b = document.forms["c-form"]["email"].value;
-    if (b == "") {
+    var b = document.getElementById("inputEmail").value;
+    if (b == "" || b == null) {
       alert("Kindly fill out your Email");
       return false;
     }
-    var c = document.forms["c-form"]["message"].value;
-    if (c == "") {
+    var c = document.getElementById("inputMessage").value;
+    if (c == "" || c == null) {
       alert("Kindly leave a message");
       return false;
     }
-}
+  }
+  

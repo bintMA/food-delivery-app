@@ -20,9 +20,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/customcss.css">
 
-    <!-- Custom JS -->
-    <script src="/js/script.js"></script>
-
     <title>I Go Chop</title>
   </head>
   <body>
@@ -78,21 +75,21 @@
 
         </div>
         <div class="container-fluid">
-          <form action="mailto:oloritytylopeh@gmail.com" name="c-form" onsubmit="return validateForm()" method="POST">
+          <form action="mailto:oloritytylopeh@gmail.com" name="c-form" id="c-form" method="POST" onsubmit="return validateForm()" required>
             <div class="form-group col-sm-5 contact-form">
               <div>
-                <label for="inputName">Name</label>
-                <input type="text" name="fname" class="form-controls" id="inputName " >
+                <label for="inputName">Name <span class="required">* <span id="inputNameErr"></span></span></label>
+                <input type="text" name="fname" class="form-controls" id="inputName">
               </div>
               <div>
-                <label for="inputEmail">Email</label> 
-                <input type="email" name="email" class="form-controls" id="inputEmail"  required>
+                <label for="inputEmail">Email <span class="required">* <span id="inputEmailErr"></span></span></label> 
+                <input type="email" name="email" class="form-controls" id="inputEmail">
               </div>
               <div>
-                <label for="inputMessage">Message</label>
-                <textarea class="form-control" id="inputMessage" rows="3" name="message" required></textarea>
+                <label for="inputMessage">Message <span class="required">* <span id="inputMessageErr"></span></span></label>
+                <textarea class="form-control" id="inputMessage" rows="3" name="message"></textarea>
               </div>
-              <button type="submit" class="btn btn-outline btn-lg contact-btn"  onclick="">Submit</button>
+              <input type="submit" class="btn btn-outline btn-lg contact-btn" value ="Submit" name="submit">
             </div>
           </form>
         </div>
@@ -142,6 +139,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+     <!-- Custom JS -->
+     <script src="/js/script.js"></script>
     
     
   </body>

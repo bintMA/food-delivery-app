@@ -219,7 +219,11 @@ header {
 
 }
 
-
+/* Ahmad's styles for empty input */
+.required {
+    color: red;
+    font-size: 14px;
+}
 
 
 
